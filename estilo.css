@@ -1,0 +1,180 @@
+@charset   "UTF-8";
+ /* *{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:rgb(10, 60, 77);
+
+}
+header{
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+        padding: 10px;
+    }
+section{
+    background-color: white;
+    width:500px;
+    padding: 15px;
+    margin: auto;
+    border-radius:10px;
+    box-shadow: 1px 1px 10px #0000009c;
+}
+footer{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+input{
+    border:none;
+}
+input[type=number] {
+  border: none;
+  outline: none; /* tira o contorno azul quando clica /
+  background-color: white; /* opcional, para ajustar o fundo */
+  /*font-size: 95%;
+}
+
+select{
+    margin:10px;
+    width: 100px;;
+}
+
+label{
+    margin-left: 10px;
+    height: 20px;
+    padding:2px;
+    border:2px solid #333;
+    border-radius:8px;
+}
+
+#gerar{
+    padding:2px;
+    height: 20px;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    background-color: #d8d6d6;
+
+}
+
+#gerar:hover{
+    transform:translateY(-4px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    background-color: rgb(153, 187, 170);
+    
+}/*
+    /* ======= RESET ======= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ======= ESTRUTURA ======= */
+body {
+  background-color: #063852;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+/* ======= CONTEÚDO ======= */
+section {
+  background: #fff;
+  color: #222;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+/* Campo e botão */
+label {
+  font-weight: 500;
+  color: #333;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f3f3f3;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+input[type="number"] {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1rem;
+  width: 70px;
+  text-align: center;
+}
+
+/* Remove as setinhas do input number */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-apperance: textfield;
+}
+
+/* Botão */
+#gerar {
+  margin-left: 10px;
+  padding: 6px 14px;
+  background-color: #0b7dda;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+
+#gerar:hover {
+  background-color: #0a6ac1;
+  transform: translateY(-2px);
+}
+
+/* ======= LISTAS ======= */
+select {
+  margin: 15px 5px 0;
+  width: 120px;
+  height: 180px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  background-color: #fafafa;
+  text-align: center;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+select:hover {
+  transform: scale(1.05);
+  border-color: #0b7dda;
+}
+
+/* Rodapé */
+footer {
+  margin-top: auto;
+  font-size: 0.9rem;
+  color: #ddd;
+}
